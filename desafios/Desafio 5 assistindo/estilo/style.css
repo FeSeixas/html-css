@@ -6,7 +6,7 @@
 /* Colocando fonte interna */
 @font-face {
   font-family: "Android";
-  src: url("/fontes/idroid.otf") format("opentype");
+  src: url("../fontes/idroid.otf") format("opentype");
   font-weight: normal;
 }
 
@@ -115,6 +115,12 @@ nav a {
   transition-duration: 0.3s;
 }
 
+@media (max-width: 450px) {
+  nav a {
+    display: block;
+    margin: 5px 0; /* Adiciona um pequeno espaçamento entre os links */
+  }
+}
 /* Configuração ao passar mouse */
 nav a:hover {
   background-color: var(--cor3);
