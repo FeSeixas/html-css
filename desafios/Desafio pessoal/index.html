@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/html.ico" type="image/x-icon">
+    <title>Desafio Pessoal</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(142, 142, 142) ;
+        }
+        h1{
+            font-size: 3em;
+        }
+        ul{
+            text-align: center;
+            list-style: none; /* Remove os marcadores de lista padrão */
+            padding: 0; /* Remove o preenchimento padrão da lista */
+            flex-direction: column; /* Define a direção como coluna para que os itens fiquem um embaixo do outro */
+            align-items: center; /* Centraliza horizontalmente os itens */
+        }
+
+        ul li {
+            display: flex;
+            flex-direction: column; /* Define a direção como coluna para que a imagem e o texto fiquem um embaixo do outro */
+            align-items: center; /* Centraliza horizontalmente os elementos dentro de cada item */
+            margin-bottom: 20px; /* Adiciona espaço entre os itens */
+        }
+
+        .link-maca {
+            color: red;
+        }
+
+        .link-banana {
+            color: rgb(235, 235, 7);
+        }
+
+        .link-laranja {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Listas e links</h1>
+    
+    <h2>Frutas</h2>
+    <ul>
+        <li>
+
+            <a href="maca.html" target="_self" rel="next">
+                <img src="imagens/Maca-200.png" alt="Imagem de um desenho de uma maçã">
+            </a>
+
+            <span> 
+                <a href="maca.html" target="_self" rel="next" class="link-maca">
+                    Maçã
+                </a> 
+            </span>
+            
+        </li>
+
+        <li>
+            <a href="banana/banana.html" target="_self" rel="next">
+                <img src="imagens/Banana-200.png" alt="Imagem de um desenho de uma banana">
+            </a>
+
+            <span>
+                <a href="banana/banana.html" target="_self" rel="next" class="link-banana">
+                    Banana
+                </a>
+            </span>
+        </li>
+
+        <li>
+            <a href="laranja.html" target="_self" rel="next">
+                <img src="imagens/Laranja-200.png" alt="Imagem de um desenho de uma laranja">
+            </a>
+            
+            <span>
+                <a href="laranja.html" target="_self" rel="next" class="link-laranja" >
+                    Laranja
+                </a>
+            </span>
+        </li> 
+    </ul>
+    
+</body>
+</html>

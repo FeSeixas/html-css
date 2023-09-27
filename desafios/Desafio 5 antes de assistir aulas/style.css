@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #269f5c;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  /* Necessário para colocar links no canto inferior esquerdo */
+  position: relative; /* Quando você define position: relative; em um elemento (como o <header> no seu caso), ele estabelece um contexto de posicionamento para os elementos filhos dentro desse elemento. */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  background: linear-gradient(to bottom, #33ce79, #158d49, #033d1d);
+  color: white;
+
+  height: 200px;
+}
+
+/* Colocando um espaço entre o p e h1 do header */
+#principal {
+  margin: 10px;
+}
+
+header > nav {
+  /* Colocando os links no canto inferior esquerdo */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 2px;
+}
+
+nav > a {
+  display: inline-block; /* Certifica-se de que o link tem uma caixa para conter o fundo */
+  padding: 10px 20px; /* Adiciona algum preenchimento para o conteúdo do link */
+  color: #90d7b3;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+nav > a:hover {
+  background-color: #269f5c;
+  border-radius: 5%;
+  color: black;
+}
+
+main {
+  background-color: white;
+  margin: 0px auto;
+  width: 70%;
+  border-radius: 0% 1%;
+}
+
+main p {
+  padding: 20px;
+  text-indent: 1em;
+}
+
+article > h1 {
+  padding: 10px;
+  color: #033d1d;
+}
+
+@font-face {
+  font-family: "idroid";
+  src: url(fontes/idroid.otf) format("opentype");
+}
+
+#fonte {
+  font-family: "idroid";
+}
+article h2 {
+  background: linear-gradient(to right, #90d7b3, white);
+  margin: 10px;
+  color: rgb(2, 99, 2);
+  text-indent: 0.5em;
+}
+
+article p {
+  text-indent: 1em;
+  padding: 10px;
+}
+
+article > aside {
+  text-align: center;
+}
+
+#extra {
+  padding: 10px;
+  margin: 10px 15px;
+  background-color: #7fe1aa;
+  border-radius: 10px;
+  box-shadow: 3px 4px 3px 0px rgba(0, 0, 0, 0.225);
+}
+
+article > h4 {
+  background-color: #165c34;
+  color: white;
+  padding: 20px;
+  margin: -10px 0px 10px -10px;
+  border-radius: 10px 0px;
+}
+
+article > ul {
+  list-style: none;
+}
+
+.verde {
+  font-weight: bold; /* Deixa o texto em negrito */
+  color: #13b613; /* Define a cor verde escura (#006400) */
+}
+
+.imagem {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #033d1d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
