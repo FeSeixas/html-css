@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+
+            /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand - background
+                color > image > position > repeat > size > attachment
+            */
+
+            /* cover não funciona, tem que colocar separado */
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
-            border-radius: 10%;
+            border-radius: 15px;
         }
     </style>
 </head>
@@ -28,7 +39,16 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae nihil odit aperiam nemo praesentium reprehenderit natus facilis consectetur odio, necessitatibus pariatur reiciendis accusantium qui error nesciunt rerum illum ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eaque ducimus tempore iste hic numquam aut tempora officia, veritatis nulla eius? Libero ratione qui animi dignissimos dolores harum, ipsam magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi, perspiciatis ipsa non dignissimos odio sint, fugiat, quaerat voluptates unde similique possimus dolorum aliquid quis accusantium officia sunt id alias!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae nihil odit aperiam nemo praesentium reprehenderit natus facilis consectetur odio, necessitatibus pariatur reiciendis accusantium qui error nesciunt rerum illum ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eaque ducimus tempore iste hic numquam aut tempora officia, veritatis nulla eius? Libero ratione qui animi dignissimos dolores harum, ipsam magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi, perspiciatis ipsa non dignissimos odio sint, fugiat, quaerat voluptates unde similique possimus dolorum aliquid quis accusantium officia sunt id alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus, at similique et fugiat, optio voluptatum magnam perferendis cumque quos rem a molestiae minima est odio fuga odit earum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum necessitatibus nobis! Aperiam officiis natus distinctio autem nam nobis adipisci eaque culpa quasi fugiat omnis illum laboriosam maiores, architecto obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem ipsam nesciunt voluptatum illo nostrum quas a, praesentium nam exercitationem labore expedita aliquam delectus aut aspernatur cum dolore assumenda reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sint nostrum voluptatum? Tenetur aspernatur exercitationem quo quis aliquam consequatur, incidunt corrupti quod, tempora eos, non velit deserunt. Velit, reprehenderit molestias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto fugit voluptatem amet dolores debitis officia unde voluptatibus! Obcaecati, dolor rerum? Minima fugit vero beatae pariatur ipsa accusamus suscipit possimus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, non sunt. Ad, eligendi debitis nostrum maiores culpa consequatur doloribus iusto repudiandae perspiciatis vero qui neque odit ipsum quod natus? Minima.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae nihil odit aperiam nemo praesentium reprehenderit natus facilis consectetur odio, necessitatibus pariatur reiciendis accusantium qui error nesciunt rerum illum ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eaque ducimus tempore iste hic numquam aut tempora officia, veritatis nulla eius? Libero ratione qui animi dignissimos dolores harum, ipsam magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi, perspiciatis ipsa non dignissimos odio sint, fugiat, quaerat voluptates unde similique possimus dolorum aliquid quis accusantium officia sunt id alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus, at similique et fugiat, optio voluptatum magnam perferendis cumque quos rem a molestiae minima est odio fuga odit earum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum necessitatibus nobis! Aperiam officiis natus distinctio autem nam nobis adipisci eaque culpa quasi fugiat omnis illum laboriosam maiores, architecto obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem ipsam nesciunt voluptatum illo nostrum quas a, praesentium nam exercitationem labore expedita aliquam delectus aut aspernatur cum dolore assumenda reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sint nostrum voluptatum? Tenetur aspernatur exercitationem quo quis aliquam consequatur, incidunt corrupti quod, tempora eos, non velit deserunt. Velit, reprehenderit molestias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto fugit voluptatem amet dolores debitis officia unde voluptatibus! Obcaecati, dolor rerum? Minima fugit vero beatae pariatur ipsa accusamus suscipit possimus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, non sunt. Ad, eligendi debitis nostrum maiores culpa consequatur doloribus iusto repudiandae perspiciatis vero qui neque odit ipsum quod natus? Minima.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae nihil odit aperiam nemo praesentium reprehenderit natus facilis consectetur odio, necessitatibus pariatur reiciendis accusantium qui error nesciunt rerum illum ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eaque ducimus tempore iste hic numquam aut tempora officia, veritatis nulla eius? Libero ratione qui animi dignissimos dolores harum, ipsam magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi, perspiciatis ipsa non dignissimos odio sint, fugiat, quaerat voluptates unde similique possimus dolorum aliquid quis accusantium officia sunt id alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus, at similique et fugiat, optio voluptatum magnam perferendis cumque quos rem a molestiae minima est odio fuga odit earum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum necessitatibus nobis! Aperiam officiis natus distinctio autem nam nobis adipisci eaque culpa quasi fugiat omnis illum laboriosam maiores, architecto obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem ipsam nesciunt voluptatum illo nostrum quas a, praesentium nam exercitationem labore expedita aliquam delectus aut aspernatur cum dolore assumenda reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sint nostrum voluptatum? Tenetur aspernatur exercitationem quo quis aliquam consequatur, incidunt corrupti quod, tempora eos, non velit deserunt. Velit, reprehenderit molestias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto fugit voluptatem amet dolores debitis officia unde voluptatibus! Obcaecati, dolor rerum? Minima fugit vero beatae pariatur ipsa accusamus suscipit possimus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, non sunt. Ad, eligendi debitis nostrum maiores culpa consequatur doloribus iusto repudiandae perspiciatis vero qui neque odit ipsum quod natus? Minima.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae nihil odit aperiam nemo praesentium reprehenderit natus facilis consectetur odio, necessitatibus pariatur reiciendis accusantium qui error nesciunt rerum illum ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eaque ducimus tempore iste hic numquam aut tempora officia, veritatis nulla eius? Libero ratione qui animi dignissimos dolores harum, ipsam magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque commodi, perspiciatis ipsa non dignissimos odio sint, fugiat, quaerat voluptates unde similique possimus dolorum aliquid quis accusantium officia sunt id alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus, at similique et fugiat, optio voluptatum magnam perferendis cumque quos rem a molestiae minima est odio fuga odit earum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum necessitatibus nobis! Aperiam officiis natus distinctio autem nam nobis adipisci eaque culpa quasi fugiat omnis illum laboriosam maiores, architecto obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quidem ipsam nesciunt voluptatum illo nostrum quas a, praesentium nam exercitationem labore expedita aliquam delectus aut aspernatur cum dolore assumenda reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sint nostrum voluptatum? Tenetur aspernatur exercitationem quo quis aliquam consequatur, incidunt corrupti quod, tempora eos, non velit deserunt. Velit, reprehenderit molestias! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto fugit voluptatem amet dolores debitis officia unde voluptatibus! Obcaecati, dolor rerum? Minima fugit vero beatae pariatur ipsa accusamus suscipit possimus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, non sunt. Ad, eligendi debitis nostrum maiores culpa consequatur doloribus iusto repudiandae perspiciatis vero qui neque odit ipsum quod natus? Minima.
         </p>
     </main>
 </body>
